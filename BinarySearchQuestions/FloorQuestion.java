@@ -2,22 +2,18 @@ package BinarySearchQuestions;
 
 //time complexity: O(log n)
 
-public class CeilingQuestion {
-    //ceiling means the smallest element in array that is greater or equal to target.
+public class FloorQuestion {
+    //floor: greatest number which is smaller or equal to target
     public static void main(String[] args) {
         int[] arr={2,3,5,9,14,16,18};//sorted array therefore apply binary search
         int target=17;
-        System.out.println(ceiling(arr, target));
+        System.out.println(floor(arr, target));
     }
-
-    //return the index of smaleest no >= target
-    static int ceiling(int[] arr, int target){
+    //find the greatest no  <=target
+    static int floor(int[] arr, int target){
         int start=0;
         int end=arr.length-1;
-        //but what if the target is greater than the greatest no in the array
-        if(target > end){
-            return -1;
-        }
+         //but what if the target is smaller than the smallest no in the array
         
         while(start<=end){
             int mid=start+(end-start)/2;
@@ -31,6 +27,6 @@ public class CeilingQuestion {
                 start=mid+1;
             }
         }
-        return start;
+        return end;
     }
 }
