@@ -2,6 +2,7 @@ package Assignments;
 import java.util.*;
 
 public class Operators {
+    //ques 4:Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();

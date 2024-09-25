@@ -12,7 +12,7 @@ public class BubbleSort {
         
     }
     //with first parse largest element comes to end
-    // in second parse 2nd largest element comes to 2nd last place
+    // in second parse 2nd largest element comes to 2nd last place and so on
     static void bubble(int [] arr){
         boolean swapped;
         //run the steps n-1 times
