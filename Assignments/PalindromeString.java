@@ -1,4 +1,4 @@
-package Assignments;
+
 
 public class PalindromeString {
     //ques 8: To find out whether the given String is Palindrome or not.
