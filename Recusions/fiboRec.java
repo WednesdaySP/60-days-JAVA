@@ -5,8 +5,6 @@ public class fiboRec {
         int n=10;
         System.out.println(fibo(n));
       
-
-        
     }
 
     static int fibo(int n){
@@ -14,7 +12,6 @@ public class fiboRec {
      if(n<2){
             return n;
         }
-        
             return fibo(n-1)+ fibo(n-2);
         
     }
