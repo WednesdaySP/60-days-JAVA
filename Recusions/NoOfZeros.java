@@ -9,6 +9,7 @@ public class NoOfZeros {
         return zeros(n,0);
     }
 
+    //special pattern, how to pass a value to above calls
     static int zeros(int n, int count){
         
         if(n==0){
