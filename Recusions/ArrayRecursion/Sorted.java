@@ -11,7 +11,6 @@ public class Sorted {
         if(index == arr.length-1){
             return true;
         }
-
         return arr[index] < arr[index+1] && IsSorted(arr,index+1);
     }
 }
