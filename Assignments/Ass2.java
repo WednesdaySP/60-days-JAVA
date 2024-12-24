@@ -47,5 +47,4 @@ public class Ass2 {
         System.out.println("Simple Interest: "+si);
     }
 
-    
 }
