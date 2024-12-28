@@ -17,7 +17,6 @@ public class Ass2 {
         System.out.print("Time:");
         int t=sc.nextInt();
         simpleInterest(p, r, t);
-       
         sc.close();
 
        // evenOdd(n);
