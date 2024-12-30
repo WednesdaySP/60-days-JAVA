@@ -14,7 +14,6 @@ public class FloorQuestion {
         int start=0;
         int end=arr.length-1;
          //but what if the target is smaller than the smallest no in the array
-        
         while(start<=end){
             int mid=start+(end-start)/2;
             if(arr[mid]==target){
