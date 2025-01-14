@@ -5,6 +5,7 @@ public class SB {
             char ch=(char)('a'+ i);
             builder.append(ch);
         }
+        
         System.out.println(builder.toString());
         System.out.println(builder.length());
         System.out.println(builder.deleteCharAt(0));
