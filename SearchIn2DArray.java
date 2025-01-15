@@ -14,7 +14,6 @@ public class SearchIn2DArray {
         // int ans2=max(arr);
         System.out.println(Arrays.toString(ans));
         System.out.println((max(arr)));
-        
     }
 
     static int[] search(int [][] arr, int target){
@@ -28,10 +27,8 @@ public class SearchIn2DArray {
                     
                 }
             }
-           
         }
         return new int[]{-1,-1};
-
     }
 
 
@@ -45,10 +42,8 @@ public class SearchIn2DArray {
             for(int element:ints){
                 if (element>max) {
                     max=element;
-                    
                 }
-            }
-           
+            } 
         }
         return max;
 
